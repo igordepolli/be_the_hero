@@ -1,0 +1,36 @@
+/**
+ * Rota / Recurso
+ */
+
+ /**
+  * Métodos HTTP:
+  * 
+  * GET: Buscar uma informação do back-end
+  * POST: Criar uma informação no back-end
+  * PUT: Alterar uma informação no back-end
+  * DELETE: Deletar uma informação no back-end
+  */
+
+/**
+ * Tipos de parâmetros:
+ * 
+ * Query: Parâmetros nomeados enviados na rota após "?" (filtros, paginação)
+ *  Exemplo de passagem de valores:
+ *      /users?page=2&nome=Igor&Idade=23
+ * 
+ * Route Params: Parâmetros utilizados para identificar recursos
+ *  Exemplo:
+ *     app.get('/users/:id', (request, response) => {
+        return response.json({
+        evento: 'Semana Oministack 11.0',
+        aluno: 'Igor'
+    });
+}); 
+    No método GET:
+    /users/1
+
+    Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+ *  
+
+    Query Builder: table('users').select('*').where()
+ */
