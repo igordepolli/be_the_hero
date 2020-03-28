@@ -34,3 +34,17 @@
 
     Query Builder: table('users').select('*').where()
  */
+
+
+Três Parametros: Query, Route, Body
+
+
+TESTES DE INTEGRAÇÃO: TESTAM O FLUXO DE UMA ROTA INTEIRA DA APLICAÇÃO, TESTA UMA FUNCIONALIDADE OU ROTA POR COMPLETO
+TESTE UNITÁRIO: TESTA UM PEDAÇO DA APLICAÇÃO DE FORMA ISOLADA, TESTA UMA FUNÇÃO MUITO ISOLADA, NÃO SE COMUNICA COM OUTRAS FERRAMENTAS DO CÓDIGO.
+
+"test": "cross-env NODE_ENV=test jest" //instala-se o "npm install cross-env" para verificar se está ou não em ambiente de teste, e modofica esta linha dessa forma.
+
+ESTUDAR DEPOIS:
+Padrões de código: ESLint, Prettier
+Autenticação JWT
+Styled Components
